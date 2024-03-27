@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".categoriesTeacherAge6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cd6057">
+
+        <ImageView
+            android:id="@+id/backBtnTopic"
+            android:layout_width="38dp"
+            android:layout_height="37dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/selectTopic6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Categories Age 6"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAnimals6"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="400dp"
+        android:layout_marginStart="6dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#9a745f"
+            android:padding="9dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Animals"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="TODO"
+                android:maxHeight="100dp"
+                android:src="@drawable/livestock"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBodyPart6"
+        android:foreground="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width="400dp"
+        android:layout_marginStart="6dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#7cb3ac"
+            android:padding="9dp">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Body Part"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="TODO"
+                android:maxHeight="100dp"
+                android:src="@drawable/body"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="179dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/btn_corner"
+        android:text="HOME"
+        android:textSize="16sp"
+        android:textColor="#FFF3E0"
+        android:textStyle="bold"
+        app:backgroundTint="#ff9933"
+        tools:ignore="MissingConstraints"/>
+</LinearLayout>

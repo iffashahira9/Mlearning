@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEditQuiz">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cd6057">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="38dp"
+            android:layout_height="37dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/titleBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add question"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/questionAddQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:autofillHints=""
+        android:hint="Question"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/questionAddOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="Option 1"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/questionAddOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="Option 2"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/questionAddOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:hint="Option 3"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/questionAddAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:autofillHints=""
+        android:hint="Answer"
+        android:inputType="text"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Save" />
+
+</LinearLayout>

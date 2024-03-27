@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgquiz"
+    tools:context=".ARmainMenu">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="223dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="94dp"
+        android:src="@drawable/flashcardbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/flashcard_learn"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_corner"
+        android:text="START"
+        android:textColor="#FFF3E0"
+        android:textStyle="bold"
+        app:backgroundTint="#ff9933"
+        app:layout_constraintBottom_toTopOf="@+id/btnHowToPlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnHowToPlay"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/btn_corner"
+        android:text="HOW TO PLAY"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#cd6057"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

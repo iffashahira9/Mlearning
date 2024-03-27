@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgquiz"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cd6057">
+
+        <ImageView
+            android:id="@+id/backBtnTopic"
+            android:layout_width="38dp"
+            android:layout_height="37dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/back"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/selectTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Select Topic"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's learn Science !"
+            android:textColor="@color/black"
+            android:layout_marginStart="50dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:letterSpacing="0.03"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose activity: "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="150dp"
+            android:paddingTop="10dp"
+            android:letterSpacing="0.03"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardModule"
+            android:layout_width="400dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_marginStart="6dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ff9933"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="E-module"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text2"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Video of animals and body parts "
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/video"
+                    android:contentDescription="TODO" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardPlayQuiz"
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="400dp"
+            android:layout_marginStart="6dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#5f9c3f"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Play quiz"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt1"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="cover topic animals and body parts"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:contentDescription="TODO"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/quiz"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardAR"
+            android:clickable="true"
+            android:layout_width="400dp"
+            android:layout_marginStart="6dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#cd6057"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="AR flashcard "
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text3"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Game using flashcard "
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentEnd="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/flashcard"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

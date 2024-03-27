@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">M-learning</string>
+    <string name="stringAnimal">Identify the animal\'s name</string>
+    <string name="stringBodyPart">Identify each of body part.</string>
+    <string name="flashcard_learn">Flashcard \n Learn</string>
+    <string name="select_topic_to_learn">Choose a topic \n to view a video</string>
+    <string name="step_1">Step 1: \n Scan the image \n on each flashcard</string>
+    <string name="step_2">Step 2: \n The 3D model will \n pop out and show \n the animation of \n science information</string>
+    <string name="title_activity_manage_quiz">Manage Quiz</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

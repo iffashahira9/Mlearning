@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable-v24/round_back_white10.xml" value="0.1385" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable-v24/round_back_white_stroke10.xml" value="0.1385" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/background_green.xml" value="0.1385" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/btn_corner.xml" value="0.156" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/progress_bar.xml" value="0.141" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/reset_color.xml" value="0.141" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_back_green.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_back_light_quiz10.xml" value="0.141" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_back_light_white10.xml" value="0.1355" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_back_light_yellow10.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_back_pink_outline.xml" value="0.1355" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_back_red.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/round_white_back_white10.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/selected_answer_green.xml" value="0.141" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/selected_answer_red.xml" value="0.141" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/selector_background.xml" value="0.1605" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/drawable/txt_corner.xml" value="0.1225" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_age_category.xml" value="0.264" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_arhow_to_play.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_armain_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_categories_teacher_age5.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_categories_teacher_age6.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_categories_teachers.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_choose_age_teacher.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_home2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_home_teacher.xml" value="0.264" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_list_quiz_ques_teach.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_login_teacher.xml" value="0.264" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_question_quiz_teach.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_question_teach.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_quiz_age5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_quiz_age6.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_scoreaboard_age6.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_scoreboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_selected_topic_age5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_selected_topic_age6.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_selected_topic_module.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_selected_topic_module6.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_sub_topic_module_age5.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_sub_topic_module_age6.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_video_view.xml" value="0.16" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_video_view_animal5.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_video_view_body5.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/activity_video_view_body6.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/AndroidStudioProjects/Mlearning/app/src/main/res/layout/quiz_view.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/activity_add_edit_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/activity_main.xml" value="0.10277777777777777" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/adapter_question.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/content_manage_quiz.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/iffas/Desktop/fasha/Mlearning/app/src/main/res/layout/quiz_view.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

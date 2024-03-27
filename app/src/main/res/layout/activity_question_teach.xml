@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".questionTeach">
+
+    <EditText
+        android:id="@+id/question"
+        android:hint="Question"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="50sp"
+        android:id="@+id/option1"
+        android:hint="option 1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="20sp"
+        android:id="@+id/option2"
+        android:hint="option 2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:id="@+id/option3"
+        android:hint="option 3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="30sp"
+        android:id="@+id/answer"
+        android:hint="Answer"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/updateQues"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update question"/>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancel"/>
+
+
+
+
+
+
+
+</LinearLayout>

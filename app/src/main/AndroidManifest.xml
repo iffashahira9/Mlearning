@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mlearning"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddEditQuiz"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ManageQuiz"
+            android:exported="false"
+            android:label="@string/title_activity_manage_quiz"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".categoriesTeacherAge6"
+            android:exported="false" />
+        <activity
+            android:name=".categoriesTeacherAge5"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseAgeTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".questionTeach"
+            android:exported="false" />
+        <activity
+            android:name=".videoViewBody6"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".scoreaboardAge6"
+            android:exported="false" />
+        <activity
+            android:name=".selectedTopicModule6"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".videoViewBody5"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".videoViewAnimal5"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".ARhowToPlay"
+            android:exported="false" />
+        <activity
+            android:name=".HomeTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".scoreboard"
+            android:exported="false" />
+        <activity
+            android:name=".selectedTopicModule"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".quiz_age_6"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ARmainMenu"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Home2"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".selectedTopicAge6"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".selectedTopicAge5"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".quiz_age_5"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".AgeCategory"
+            android:exported="false" />
+        <activity
+            android:name=".loginTeacher"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
